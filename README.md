@@ -68,14 +68,32 @@ XAI Analysis
 
 ```text
 digital-divide-ml/
-├── README.md
-├── requirements.txt
-├── data/
-├── notebooks/
-├── src/
-├── models/
-├── outputs/
-└── docs/
+├── data/                 # 원본 데이터 및 전처리 데이터 저장
+│   ├── raw/              # 수집한 원본 공공데이터 (수정 금지)
+│   ├── processed/        # 전처리 및 feature engineering 완료 데이터
+│   └── external/         # 정책자료·보고서·참고문헌 등 외부 자료
+│
+├── docs/                 # 제안서, 회의록, 발표자료 등 문서 관리
+│
+├── models/               # 학습 완료 모델 저장 (.pkl 등)
+│
+├── notebooks/            # EDA, 실험, 시각화용 Jupyter Notebook
+│
+├── outputs/              # 결과물 저장 폴더
+│   ├── figures/          # 그래프 및 시각화 이미지
+│   ├── reports/          # 최종 발표자료 및 보고서
+│   └── logs/             # 학습 로그 및 결과 기록
+│
+├── src/                  # 재사용 가능한 Python 코드
+│   ├── preprocessing.py  # 데이터 전처리
+│   ├── clustering.py     # K-means 군집화
+│   ├── evaluation.py     # 모델 평가 코드
+│   └── visualization.py  # 시각화 함수
+│
+├── .gitignore            # Git 추적 제외 파일 설정
+├── LICENSE               # 오픈소스 라이선스
+├── README.md             # 프로젝트 설명 및 실행 가이드
+└── Team3_proposal.docx   # 프로젝트 제안서
 ```
 
 ---
