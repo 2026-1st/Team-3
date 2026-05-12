@@ -90,6 +90,11 @@ digital-divide-ml/
 │   ├── evaluation.py     # 모델 평가 코드
 │   └── visualization.py  # 시각화 함수
 │
+├──ISSUE_TEMPLATE/
+│    ├── feature_request.md
+│    ├── bug_report.md
+│    └── experiment_log.md
+│
 ├── .gitignore            # Git 추적 제외 파일 설정
 ├── LICENSE               # 오픈소스 라이선스
 ├── README.md             # 프로젝트 설명 및 실행 가이드
