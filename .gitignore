@@ -219,8 +219,8 @@ __marimo__/
 
 
 # 원천 데이터
-data/
-
+data/raw
+data/processed
 
 
 
