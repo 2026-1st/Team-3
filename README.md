@@ -85,6 +85,7 @@ digital-divide-ml/
 │   └── logs/             # 학습 로그 및 결과 기록
 │
 ├── src/                  # 재사용 가능한 Python 코드
+│   ├── __Init__.py           
 │   ├── preprocessing.py  # 데이터 전처리
 │   ├── clustering.py     # K-means 군집화
 │   ├── evaluation.py     # 모델 평가 코드
@@ -108,8 +109,8 @@ digital-divide-ml/
 | Name | Role |
 |---|---|
 | 김민서 | GitHub, 발표, 시각화, XAI |
-| 김선빈 | MLP, Evaluation |
-| 강준혁 | K-means, Label Design |
+| 김선빈 | preprocessing, MLP, Evaluation |
+| 강준혁 | feature engineering, K-means, Label Design |
 | 김민기 | LightGBM, SVM |
 
 ---
