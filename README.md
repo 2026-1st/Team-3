@@ -122,7 +122,7 @@ main
 
 - feature 브랜치 기반 작업
 - Pull Request(PR) 후 main 병합
-- GitHub / Notion 기반 협업
+- GitHub / Notion 기반 협업 (GitHub Issue Template 기반 협업 관리)
 
 ---
 
@@ -152,3 +152,6 @@ pip install -r requirements.txt
 - 과학기술정보통신부 「2024·2025 디지털정보격차 실태조사」
 - 김현정 외(2024), 코로나19 시기 디지털 격차 연구
 - 김효주 외(2026), 노인의 디지털 정보화 수준 연구
+
+----
+
