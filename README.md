@@ -113,11 +113,11 @@ digital-divide-ml/
 
 ```text
 main
- ├── feature/preprocessing
- ├── feature/clustering
- ├── feature/lightgbm
- ├── feature/mlp
- └── feature/xai
+├── feature/preprocessing
+├── feature/clustering
+├── feature/mlp
+├── feature/lightgbm_svm   
+└── feature/xai    
 ```
 
 - feature 브랜치 기반 작업
