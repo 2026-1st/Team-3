@@ -1,0 +1,5 @@
+﻿cluster,count,device_access_q2_q4_raw_mean,device_access_q2_q4_scaled_mean,basic_skill_q5_q10_raw_mean,basic_skill_q5_q10_scaled_mean,usage_time_q11_raw_mean,usage_time_q11_scaled_mean,service_usage_q12_q19_raw_mean,service_usage_q12_q19_scaled_mean,difficulty_or_barrier_q20_q26_raw_mean,difficulty_or_barrier_q20_q26_scaled_mean,ai_nonuse_reason_q28_raw_mean,ai_nonuse_reason_q28_scaled_mean,ai_related_q27_derived_raw_mean,ai_related_q27_derived_scaled_mean,digital_policy_need_q29_q31_raw_mean,digital_policy_need_q29_q31_scaled_mean
+0,10187,0.952,-0.041,2.283,-0.138,10.418,-0.202,1.562,-0.302,2.537,-0.084,0.176,0.159,8.949,-0.182,2.17,-0.017
+1,7653,1.006,0.121,3.064,0.621,15.008,0.317,1.98,0.164,2.962,0.428,0.076,-0.138,12.326,0.48,2.4,0.298
+2,7532,0.887,-0.209,1.461,-0.936,7.49,-0.554,1.306,-0.588,2.041,-0.689,0.156,0.105,5.964,-0.773,1.831,-0.467
+3,5961,1.029,0.178,3.062,0.621,17.79,0.64,2.732,1.049,2.992,0.465,0.043,-0.228,13.466,0.67,2.352,0.237
