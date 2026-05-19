@@ -70,7 +70,7 @@ XAI Analysis
 digital-divide-ml/
 ├── data/                 # 원본 데이터 및 전처리 데이터 저장
 │   ├── raw/              # 수집한 원본 공공데이터 (수정 금지)
-│   ├── processed/        # 전처리 및 feature engineering 완료 데이터
+│   ├── preprocessed/        # 전처리 및 feature engineering 완료 데이터
 │   ├── external/         # 정책자료·보고서·참고문헌 등 외부 자료
 │   └── labeled/          # label 분류 및 kmeans 데이터
 ├── docs/                 # 제안서, 회의록, 발표자료 등 문서 관리
