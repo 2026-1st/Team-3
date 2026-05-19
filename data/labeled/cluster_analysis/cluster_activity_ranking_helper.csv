@@ -1,0 +1,5 @@
+﻿cluster,count,device_access_q2_q4_scaled_mean,basic_skill_q5_q10_scaled_mean,service_usage_q12_q19_scaled_mean,ai_related_q27_derived_scaled_mean,digital_activity_index,activity_order_low_to_high
+2,7532,-0.209,-0.936,-0.588,-0.773,-0.626,1
+0,10187,-0.041,-0.138,-0.302,-0.182,-0.166,2
+1,7653,0.121,0.621,0.164,0.48,0.347,3
+3,5961,0.178,0.621,1.049,0.67,0.63,4
