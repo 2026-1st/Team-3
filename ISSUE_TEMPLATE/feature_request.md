@@ -1,1 +1,14 @@
+---
+##name: 코드 피드백
+##about: 팀원의 코드에 대한 피드백을 남겨주세요
+##title: "[Feedback] "
+##labels: feedback
+##assignees: ''
+---
 
+## 📁 피드백 대상
+- PR / 파일명 / 함수명:
+
+## 질문 사항
+
+## 기타 의견
