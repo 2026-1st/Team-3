@@ -1,0 +1,4 @@
+﻿split,path,rows,columns,missing,stage_1_count,stage_2_count,stage_3_count
+train,C:\Users\강준혁\Documents\New project\data\labeled\train_labeled.csv,18799,189,0,6681,7081,5037
+val,C:\Users\강준혁\Documents\New project\data\labeled\val_labeled.csv,6267,189,0,2294,2273,1700
+test,C:\Users\강준혁\Documents\New project\data\labeled\test_labeled.csv,6267,189,0,2238,2341,1688
