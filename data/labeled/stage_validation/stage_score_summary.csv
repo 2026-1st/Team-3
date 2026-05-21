@@ -1,5 +1,4 @@
-﻿digital_stage,digital_stage_name,digital_activity_score,device_access_score,basic_skill_score,usage_time_score,service_usage_score,difficulty_or_barrier_score,ai_related_score,digital_policy_need_score
-1,1단계_완전_소외,-0.627,-0.209,-0.936,-0.554,-0.588,-0.689,-0.773,-0.467
-2,2단계_제한적_이용,-0.166,-0.041,-0.138,-0.202,-0.302,-0.084,-0.182,-0.017
-3,3단계_부분_적응,0.347,0.121,0.621,0.317,0.164,0.428,0.48,0.298
-4,4단계_자립_적응,0.63,0.178,0.621,0.64,1.049,0.465,0.67,0.237
+﻿digital_stage,digital_stage_name,digital_activity_score,device_access_score,basic_skill_score,usage_time_score,service_usage_score,ai_related_score
+1,1단계_완전_소외,-0.544,-0.242,-0.81,-0.477,-0.556,-0.637
+2,2단계_부분_적응,0.07,0.027,0.289,0.009,-0.103,0.13
+3,3단계_자립_적응,0.613,0.27,0.656,0.602,0.883,0.657
