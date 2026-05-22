@@ -222,6 +222,8 @@ __marimo__/
 data/raw
 data/processed
 data/preprocessed
+data/labeled/all_with_*.csv
+data/labeled/kmeans_features_selected_*.csv
 
 
 
