@@ -1,4 +1,4 @@
-﻿cluster,count,device_access_scaled_mean,basic_skill_scaled_mean,usage_time_scaled_mean,service_usage_scaled_mean,ai_related_scaled_mean,digital_activity_index,activity_order_low_to_high
-1,11213,-0.242,-0.81,-0.477,-0.556,-0.637,-0.544,1
-0,11695,0.027,0.289,0.009,-0.103,0.13,0.07,2
-2,8425,0.27,0.656,0.602,0.883,0.657,0.614,3
+﻿cluster,count_train,device_access_scaled_mean,basic_skill_scaled_mean,usage_time_scaled_mean,service_usage_scaled_mean,digital_activity_index,activity_order_low_to_high,mapping_scope
+1,6681,-0.234,-0.805,-0.469,-0.555,-0.516,1,train_only
+0,7081,0.028,0.292,0.014,-0.105,0.057,2,train_only
+2,5037,0.271,0.657,0.603,0.884,0.604,3,train_only

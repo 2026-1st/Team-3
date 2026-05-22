@@ -1,4 +1,4 @@
-﻿cluster,count,device_access_raw_mean,device_access_scaled_mean,basic_skill_raw_mean,basic_skill_scaled_mean,usage_time_raw_mean,usage_time_scaled_mean,service_usage_raw_mean,service_usage_scaled_mean,ai_related_raw_mean,ai_related_scaled_mean
-0,11695,0.94,0.027,2.766,0.289,12.313,0.009,1.743,-0.103,10.532,0.13
-1,11213,0.83,-0.242,1.655,-0.81,8.147,-0.477,1.334,-0.556,6.695,-0.637
-2,8425,1.042,0.27,3.14,0.656,17.577,0.602,2.593,0.883,13.346,0.657
+﻿cluster,count,device_access_raw_mean,device_access_scaled_mean,basic_skill_raw_mean,basic_skill_scaled_mean,usage_time_raw_mean,usage_time_scaled_mean,service_usage_raw_mean,service_usage_scaled_mean
+0,11695,0.94,0.027,2.766,0.289,12.313,0.009,1.743,-0.103
+1,11213,0.83,-0.242,1.655,-0.81,8.147,-0.477,1.334,-0.556
+2,8425,1.042,0.27,3.14,0.656,17.577,0.602,2.593,0.883

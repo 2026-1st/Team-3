@@ -1,4 +1,4 @@
 ﻿cluster,digital_stage,digital_stage_name,mapping_rule
-1,1,1단계_완전_소외,digital_activity_index 낮은 순서
-0,2,2단계_부분_적응,digital_activity_index 낮은 순서
-2,3,3단계_자립_적응,digital_activity_index 낮은 순서
+1,1,1단계_완전_소외,train_only digital_activity_index low_to_high
+0,2,2단계_부분_적응,train_only digital_activity_index low_to_high
+2,3,3단계_자립_적응,train_only digital_activity_index low_to_high
