@@ -1,2 +1,2 @@
-﻿k,train_inertia,train_silhouette_sample_5000,all_silhouette_sample_5000,random_state,n_init,fit_scope,feature_count
-3,1344407.6616331793,0.15498514124220628,0.15407792123067793,42,20,train_only,110
+﻿k,train_inertia,train_silhouette_sample_5000,random_state,n_init,fit_scope,k_selection_scope,feature_count
+3,1344407.6616331793,0.15498514124220628,42,20,train_only,train_only,110
