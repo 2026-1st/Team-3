@@ -221,9 +221,7 @@ __marimo__/
 # 원천 데이터
 data/raw
 data/processed
-data/preprocessed
-data/labeled/all_with_*.csv
-data/labeled/kmeans_features_selected_*.csv
+
 
 
 
