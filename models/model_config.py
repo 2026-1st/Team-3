@@ -22,7 +22,7 @@ EVAL_METRICS = ('accuracy', 'macro_f1', 'weighted_f1')
 
 
 
-def evaluate(val_true, val_pred, test_true, test_pred, model_name='모델'):
+def evaluate(val_true, val_pred, test_true, test_pred, model_name='모델', OUTPUT_DIR=Path('outputs')):
   """validation/test 분할의 평가 지표를 파일과 콘솔로 출력한다."""
   result_path = OUTPUT_DIR / f'{model_name}_evaluation.txt'
   with open(result_path, 'w', encoding='utf-8') as f:
