@@ -60,7 +60,7 @@ GPU 없이 CPU 환경에서도 실행 가능함.
 3. 텐서 변환, DataLoader 구성, MLP 정의
 4. Stage1 MLP 학습/검증/모델 저장
 5. 학습 곡선 시각화
-6. Stage1 테스트 평가
+6. Stage1 검증/테스트 평가
 7. Stage1 예측 결과 시각화
 8. 개선 실험(준비 + 실행)
 
@@ -71,7 +71,7 @@ GPU 없이 CPU 환경에서도 실행 가능함.
 2. 경계 샘플 후보 선별(top1-top2 margin)
 3. 2단계 보정기 학습(0↔1, 1↔2)
 4. 조건부 보정 적용(경계쌍 + margin<threshold)
-5. Validation 기반 threshold 탐색 및 선택
+5. Validation 기반 최적 threshold 탐색 및 선택
 
 ---
 
@@ -111,22 +111,22 @@ GPU 없이 CPU 환경에서도 실행 가능함.
 
 ---
 
-## 최신 성능 (현재 산출물 기준)
+## 최신 성능 (2026.06.02 기준)
 
 ### Stage1 (MLP_evaluation.txt)
 
-- Validation: Accuracy 0.9737, F1 macro 0.9736, F1 weighted 0.9737
-- Test: Accuracy 0.9770, F1 macro 0.9771, F1 weighted 0.9769
+- Validation: Accuracy 0.9788, F1 macro 0.9785, F1 weighted 0.9787
+- Test: Accuracy 0.9748, F1 macro 0.9751, F1 weighted 0.9747
 
 ### Two-Stage (MLP_two_stage_comparison.csv)
 
 | 지표 | Stage1 MLP | Two-Stage | 변화 |
 |---|---:|---:|---:|
-| Accuracy | 0.9770 | 0.9839 | +0.0069 |
-| F1 macro | 0.9771 | 0.9840 | +0.0069 |
-| Recall(2단계) | 0.9530 | 0.9637 | +0.0107 |
+| Accuracy | 0.9748 | 0.9936 | +0.0188 |
+| F1 macro | 0.9751 | 0.9936 | +0.0185 |
+| Recall(2단계) | 0.9534| 0.9868 | +0.0334 |
 
-Threshold 선택 결과: 0.20 (Validation tuning 기준)
+Threshold 선택 결과: 0.87 (2026.06.02 기준)
 
 ---
 
