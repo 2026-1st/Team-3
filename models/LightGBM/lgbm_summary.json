@@ -1,0 +1,22 @@
+{
+  "model": "LightGBM",
+  "best_iteration": 399,
+  "best_val_f1": 0.98113,
+  "val_accuracy": 0.981171,
+  "val_f1_macro": 0.98113,
+  "val_f1_weighted": 0.981174,
+  "test_accuracy": 0.978299,
+  "test_f1_macro": 0.978559,
+  "test_f1_weighted": 0.978284,
+  "best_params": {
+    "num_leaves": 35,
+    "max_depth": 3,
+    "learning_rate": 0.2822250512258879,
+    "n_estimators": 400,
+    "min_child_samples": 57,
+    "subsample": 0.5224078715805445,
+    "colsample_bytree": 0.5908193265646629,
+    "reg_alpha": 0.0025578451520842176,
+    "reg_lambda": 7.51826334286725
+  }
+}

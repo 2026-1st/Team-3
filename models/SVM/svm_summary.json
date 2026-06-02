@@ -1,0 +1,11 @@
+{
+  "model": "SVM (LinearSVC)",
+  "best_C": 10.0,
+  "cv_f1_macro": 0.979244,
+  "val_accuracy": 0.983086,
+  "val_f1_macro": 0.982821,
+  "val_f1_weighted": 0.983073,
+  "test_accuracy": 0.979735,
+  "test_f1_macro": 0.979656,
+  "test_f1_weighted": 0.979727
+}
