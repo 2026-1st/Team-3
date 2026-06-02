@@ -1,0 +1,4 @@
+model,val_accuracy,val_f1_macro,test_accuracy,test_f1_macro
+MLP,0.9737,0.9736,0.977,0.9771
+LightGBM,0.981171,0.98113,0.978299,0.978559
+SVM,0.983086,0.982821,0.979735,0.979656
