@@ -18,10 +18,10 @@ Team-3/
 │   └── MLP/
 │       ├── README.md                              # MLP 실험 문서
 │       ├── best_mlp_model.pth                     # Stage1 MLP 최적 가중치
-│       ├── MLP_evaluation.txt                     # 보정 후(Stage2) 최종 평가 리포트
-│       ├── MLP_evaluation_before.txt              # 보정 전(Stage1) 평가 리포트
-│       ├── MLP_prediction_results.png             # 보정 후 최종 테스트 예측 시각화
-│       ├── MLP_prediction_results_before.png      # 보정 전 테스트 예측 시각화
+│       ├── MLP_two_stage_evaluation.txt           # 보정 후(Stage2) 최종 평가 리포트
+│       ├── MLP_evaluation.txt                     # 보정 전(Stage1) 평가 리포트
+│       ├── MLP_two_stage_prediction_results.png   # 보정 후 최종 테스트 예측 시각화
+│       ├── MLP_prediction_results.png             # 보정 전 테스트 예측 시각화
 │       ├── MLP_two_stage_comparison.csv           # Stage1 vs Two-Stage 성능 비교
 │       ├── MLP_two_stage_confusion_matrix.png     # Stage1/Two-Stage 혼동행렬 비교 이미지
 │       ├── MLP_two_stage_val_threshold_tuning.csv # Threshold 탐색 로그
@@ -133,11 +133,7 @@ Two-Stage 내부 로직:
 ## 6월 7일 수정 내용
 
 
-- 수정 전: MLP_evaluation.txt                     # 개선 전(Stage1)  평가 리포트
-          MLP_prediction_results.png             # 개선 전 테스트 예측 시각화
-
-- 수정 후: 다음의 파일이 추가됨.
+  다음의 파일이 추가됨.
    (new!) MLP_two_stage_evaluation.txt           # 개선 후(Stage2) 최종 평가 리포트
-   (new!) MLP_two_stage_rediction_results.png    # 개선 후 최종 테스트 예측 시각화
- 
+   (new!) MLP_two_stage_prediction_results.png    # 개선 후 최종 테스트 예측 시각화
 
