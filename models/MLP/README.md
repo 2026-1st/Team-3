@@ -54,10 +54,11 @@ Team-3/
 3. 텐서 변환, DataLoader 구성, MLP 정의
 4. Stage1 MLP 학습/검증/모델 저장
 5. Stage1 학습 곡선 시각화
-6. 개선 실험 준비(Baseline 오분류 분석)
-7. 개선 실험 실행(Two-Stage 보정)
-8. Two-Stage 검증/테스트 평가
-9. Two-Stage 예측 결과 시각화
+6. Stage1 검증/테스트 평가
+7. 개선 실험 준비(Baseline 오분류 분석)
+8. 개선 실험 실행(Two-Stage 보정)
+9. Two-Stage 검증/테스트 평가
+10. Two-Stage 예측 결과 시각화
 
 Two-Stage 내부 로직:
 1. Stage1 확률 예측 생성
@@ -102,6 +103,12 @@ Two-Stage 내부 로직:
 
 ### 2) 최신 평가 리포트
 
+개선 전(stage1)
+출처: `MLP_evaluation.txt`
+- Validation: Accuracy 0.9785, F1 macro 0.9784, F1 weighted 0.9784
+- Test: Accuracy 0.9746, F1 macro 0.9751, F1 weighted 0.9746
+
+개선 후(stage2)
 출처: `MLP_evaluation.txt`
 - Validation: Accuracy 0.9944, F1 macro 0.9944, F1 weighted 0.9944
 - Test: Accuracy 0.9935, F1 macro 0.9935, F1 weighted 0.9935
@@ -124,16 +131,13 @@ Two-Stage 내부 로직:
 ---
 
 ## 6월 7일 수정 내용
-기존의 stage1 기준으로 저장했던 결과 파일들을 내용은 유지하며 이름 뒤에 'before'을 붙임,
-stage2 이후 최종 결과 파일들을 이름을 유지하여 바꿔치기함. (다른 코드에서 MLP결과 파일을 불러올때 파일명을 수정하지 않아도 됨.)
 
-- 수정 전: MLP_evaluation.txt                     # 보정 전(Stage1)  평가 리포트
-          MLP_prediction_results.png             # 보정 전 테스트 예측 시각화
 
-- 수정 후: 
-          MLP_evaluation.txt                     # 보정 후(Stage2) 최종 평가 리포트
-          MLP_prediction_results.png             # 보정 후 최종 테스트 예측 시각화
-   (new!) MLP_evaluation_before.txt              # 보정 전(Stage1) 평가 리포트
-   (new!) MLP_prediction_results_before.png      # 보정 전 테스트 예측 시각화
+- 수정 전: MLP_evaluation.txt                     # 개선 전(Stage1)  평가 리포트
+          MLP_prediction_results.png             # 개선 전 테스트 예측 시각화
 
+- 수정 후: 다음의 파일이 추가됨.
+   (new!) MLP_two_stage_evaluation.txt           # 개선 후(Stage2) 최종 평가 리포트
+   (new!) MLP_two_stage_rediction_results.png    # 개선 후 최종 테스트 예측 시각화
+ 
 
