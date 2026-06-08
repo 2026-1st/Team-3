@@ -21,7 +21,7 @@
 - 2단계: 부분 적응
 - 3단계: 자립 적응
 
-이 라벨은 K-means 군집 결과를 디지털 역량, 서비스 이용, AI 관련 변수의 평균 차이를 바탕으로 해석해 3단계로 매핑한 결과입니다. 자세한 근거는 [data/labeled/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/labeled/README.md)에 정리되어 있습니다.
+이 라벨은 K-means 군집 결과를 디지털 역량, 서비스 이용, AI 관련 변수의 평균 차이를 바탕으로 해석해 3단계로 매핑한 결과입니다.
 
 ## 데이터 요약
 
@@ -41,7 +41,7 @@
 | Validation | `data/labeled/val_labeled.csv` | 6,267 | 189 |
 | Test | `data/labeled/test_labeled.csv` | 6,267 | 189 |
 
-원천 데이터는 용량과 배포 이슈로 Git에 포함하지 않았습니다. 관련 안내는 [data/raw/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/raw/README.md)를 참고하면 됩니다.
+원천 데이터는 용량과 배포 이슈로 Git에 포함하지 않았습니다. 
 
 ## 모델 결과 요약
 
@@ -76,16 +76,6 @@ Raw Survey Data
   -> Model Comparison
   -> XAI Interpretation (Feature importance, SHAP, LIME)
 ```
-
-## 어디를 보면 되는가
-
-처음 레포를 보는 사람에게 추천하는 진입점은 아래 순서입니다.
-
-1. [README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/README.md): 프로젝트 전체 개요
-2. [data/labeled/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/labeled/README.md): 라벨 설계 결과와 핵심 산출물
-3. [models/final_model_summary.csv](/Users/minseo/Desktop/3-2/machine learning/Team-3/models/final_model_summary.csv): 모델 비교 요약
-4. [notebooks/model_comparison.ipynb](/Users/minseo/Desktop/3-2/machine learning/Team-3/notebooks/model_comparison.ipynb): 비교 시각화/요약
-5. [notebooks/feature_importance_xai.ipynb](/Users/minseo/Desktop/3-2/machine learning/Team-3/notebooks/feature_importance_xai.ipynb): XAI 분석
 
 ## 저장소 구조
 
@@ -141,19 +131,6 @@ Team-3/
 | `notebooks/vs_model_diagnostics.ipynb` | 모델 진단용 비교 시각화 |
 | `notebooks/feature_importance_xai.ipynb` | SHAP / LIME 기반 해석 |
 
-## 폴더별 참고 문서
-
-- [data/raw/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/raw/README.md)
-- [data/preprocessed/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/preprocessed/README.md)
-- [data/labeled/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/labeled/README.md)
-- [data/external/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/data/external/README.md)
-- [models/MLP/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/models/MLP/README.md)
-- [models/LightGBM/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/models/LightGBM/README.md)
-- [models/SVM/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/models/SVM/README.md)
-- [outputs/figures/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/outputs/figures/README.md)
-- [outputs/logs/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/outputs/logs/README.md)
-- [outputs/reports/README.md](/Users/minseo/Desktop/3-2/machine learning/Team-3/outputs/reports/README.md)
-
 ## 실행 환경 메모
 
 이 저장소에는 아직 통합 `requirements.txt`가 없습니다.  
@@ -181,6 +158,3 @@ Team-3/
 | 강준혁 | Feature engineering, K-means, Label design |
 | 김민기 | LightGBM, SVM |
 
-## 저장소 링크
-
-[2026-1st/Team-3](https://github.com/2026-1st/Team-3)
