@@ -33,6 +33,3 @@
 - `cluster_analysis/cluster_activity_ranking_helper.csv`: 군집별 디지털 활동 순위 근거
 - `cluster_analysis/cluster_activity_index.png`: 군집별 디지털 활동 지표 그래프
 
-## 발표 시 주의 문장
-
-실루엣 점수가 아주 높지는 않으므로, 군집이 완전히 뚜렷하다고 설명하기보다는 디지털 역량, 서비스 이용, AI 관련 변수의 평균 차이를 근거로 1~3단계로 해석했다고 설명하는 것이 안전하다.
