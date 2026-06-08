@@ -86,11 +86,11 @@ Team-3/
 ├── data/
 │   ├── raw/                 # 원천데이터(파일 용량 크기로 인해 드라이브에 업로드 + 드라이브 링크)
 │   ├── preprocessed/        # 전처리 후 split 데이터
-│   ├── labeled/             # K-means 기반 라벨링 결과 및 검증 산출물
+│   ├── labeled/             # 최종 모델 학습용 train_labeled / val_labeled / test_labeled 데이터
 ├── docs/
 │   └── Team3_proposal.docx  # 프로젝트 제안서
 ├── models/
-│   ├── model_config.py      # 공통 feature / target / 평가 함수
+│   ├── model_config.py      # 공통 feature / target / 평가 지표
 │   ├── final_model_summary.csv
 │   ├── model_comparison_bar.png
 │   ├── model_comparison_perclass.png
