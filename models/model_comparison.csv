@@ -1,4 +1,4 @@
-﻿모델,Val Accuracy,Val F1-macro,Test Accuracy,Test F1-macro
+model,val_accuracy,val_f1_macro,test_accuracy,test_f1_macro
 MLP,0.9788,0.9785,0.9748,0.9751
 LightGBM,0.9818,0.9816,0.9794,0.9796
 SVM,0.9939,0.9938,0.9925,0.9926

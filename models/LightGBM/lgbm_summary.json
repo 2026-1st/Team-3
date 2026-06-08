@@ -1,25 +1,23 @@
 {
   "model": "LightGBM",
-  "best_iteration": 350,
+  "best_iteration": 531,
   "best_params": {
-    "num_leaves": 237,
-    "max_depth": 3,
-    "learning_rate": 0.1656915997829024,
-    "n_estimators": 350,
-    "min_child_samples": 66,
-    "subsample": 0.7227815591782333,
-    "colsample_bytree": 0.5416917711630034,
-    "reg_alpha": 0.271580303502066,
-    "reg_lambda": 0.01631468662628649
+    "num_leaves": 130,
+    "max_depth": 5,
+    "learning_rate": 0.16161445557774798,
+    "n_estimators": 600,
+    "min_child_samples": 73,
+    "subsample": 0.5023010364690074,
+    "colsample_bytree": 0.8454728245785443,
+    "reg_alpha": 0.0008983177946101522,
+    "reg_lambda": 2.948628279034697,
+    "min_split_gain": 0.01162096162755305,
+    "max_bin": 300
   },
-  "baseline_val_f1": 0.9769,
-  "baseline_test_f1": 0.9753,
-  "tuned_val_f1": 0.9826,
-  "tuned_test_f1": 0.979,
-  "val_accuracy": 0.9826,
-  "val_f1_macro": 0.9826,
-  "val_f1_weighted": 0.9826,
-  "test_accuracy": 0.9788,
-  "test_f1_macro": 0.979,
-  "test_f1_weighted": 0.9788
+  "val_accuracy": 0.9818,
+  "val_f1_macro": 0.9816,
+  "val_f1_weighted": 0.9818,
+  "test_accuracy": 0.9794,
+  "test_f1_macro": 0.9796,
+  "test_f1_weighted": 0.9794
 }

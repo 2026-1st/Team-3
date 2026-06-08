@@ -1,13 +1,13 @@
 {
   "model": "SVM (LinearSVC)",
-  "best_C": 100.0,
-  "cv_f1_macro": 0.9926,
+  "best_C": 1000.0,
+  "cv_f1_macro": 0.9927,
   "baseline_val_f1": 0.9896,
   "baseline_test_f1": 0.9861,
-  "val_accuracy": 0.9938,
-  "val_f1_macro": 0.9937,
-  "val_f1_weighted": 0.9938,
-  "test_accuracy": 0.9925,
-  "test_f1_macro": 0.9926,
-  "test_f1_weighted": 0.9925
+  "val_accuracy": 0.9944,
+  "val_f1_macro": 0.9943,
+  "val_f1_weighted": 0.9944,
+  "test_accuracy": 0.9927,
+  "test_f1_macro": 0.9927,
+  "test_f1_weighted": 0.9927
 }

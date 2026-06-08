@@ -127,12 +127,6 @@ GPU 없이 CPU 환경에서도 실행 가능함 (`n_jobs=-1`로 멀티코어 자
 - Validation: Accuracy 0.9812, F1 macro 0.9811, F1 weighted 0.9812
 - Test: Accuracy 0.9783, F1 macro 0.9786, F1 weighted 0.9783
 
-### MLP와 비교 (Test 기준)
-
-| 모델 | Test Accuracy | Test F1-macro |
-|------|:-------------:|:-------------:|
-| MLP (팀원) | 0.9748 | 0.9751 |
-| **LightGBM + Optuna** | **0.9783** | **0.9786** |
 
 ---
 
