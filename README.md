@@ -69,9 +69,9 @@ MLP는 별도의 Two-Stage 재분류 실험도 수행했습니다.
 
 ```text
 Raw Survey Data
-  -> Preprocessing / Split
+  -> Preprocessing
   -> K-means Label Design
-  -> Labeled Dataset Construction
+  -> Labeled Dataset Construction / final Split
   -> Model Training (MLP, LightGBM, SVM)
   -> Model Comparison
   -> XAI Interpretation (Feature importance, SHAP, LIME)
