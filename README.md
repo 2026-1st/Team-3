@@ -87,7 +87,6 @@ Team-3/
 │   ├── raw/                 # 원천 데이터 안내 및 일부 압축 해제 흔적
 │   ├── preprocessed/        # 전처리 후 split 데이터
 │   ├── labeled/             # K-means 기반 라벨링 결과 및 검증 산출물
-│   └── external/            # 외부 참고자료 메모용 폴더
 ├── docs/
 │   └── Team3_proposal.docx  # 프로젝트 제안서
 ├── models/
@@ -110,7 +109,6 @@ Team-3/
 │   └── feature_importance_xai.ipynb
 ├── outputs/
 │   ├── figures/             # 최종 시각화 산출물
-│   ├── logs/                # 실행 로그 / 메모용 폴더
 │   └── reports/             # 보고서/발표자료 산출물 폴더
 └── src/
     ├── __init__.py
