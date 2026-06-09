@@ -90,29 +90,29 @@ Team-3/
 ├── docs/
 │   └── Team3_proposal.docx  # 프로젝트 제안서
 ├── models/
-│   ├── model_config.py      # 공통 feature / target / 평가 지표
-│   ├── final_model_summary.csv
-│   ├── model_comparison_bar.png
-│   ├── model_comparison_perclass.png
-│   ├── MLP/
-│   ├── LightGBM/
-│   └── SVM/
+│   ├── model_config.py                   # 공통 feature / target / 평가 지표
+│   ├── final_model_summary.csv           # MLP, LightGBM, SVM 최종 성능 요약표
+│   ├── model_comparison_bar.png          # 전체 지표 기준 모델 비교 그래프
+│   ├── model_comparison_perclass.png     # 클래스별 성능 비교 그래프
+│   ├── MLP/                              # MLP 단일 모델 및 Two-Stage 보정 실험 결과
+│   ├── LightGBM/                         # LightGBM 학습, Optuna 튜닝, 중요도 결과
+│   └── SVM/                              # 최종 대표 모델 SVM의 평가 결과, 가중치, permutation importance 결과
 ├── notebooks/
-│   ├── preprocess.ipynb
-│   ├── clustering_label_design.ipynb
-│   ├── MLP.ipynb
-│   ├── LightGBM.ipynb
-│   ├── SVM.ipynb
-│   ├── model_comparison.ipynb
-│   ├── vs_eda.ipynb
-│   ├── vs_model_diagnostics.ipynb
-│   └── feature_importance_xai.ipynb
+│   ├── preprocess.ipynb              # 원천 데이터 전처리 및 split 생성
+│   ├── clustering_label_design.ipynb # K-means 기반 digital_stage 라벨 설계 및 검증
+│   ├── MLP.ipynb                     # MLP 및 Two-Stage 재분류 실험
+│   ├── LightGBM.ipynb                # LightGBM 학습 및 하이퍼파라미터 튜닝
+│   ├── SVM.ipynb                     # SVM 학습 및 GridSearchCV 튜닝
+│   ├── model_comparison.ipynb        # 세 모델 최종 성능 비교
+│   ├── vs_eda.ipynb                  # 추가 탐색적 데이터 분석(EDA)
+│   ├── vs_model_diagnostics.ipynb    # 모델 진단용 비교 그래프 생성
+│   └── feature_importance_xai.ipynb  # SHAP, LIME, feature importance 기반 해석
 ├── outputs/
 │   ├── figures/             # 최종 시각화 산출물
 │   └── reports/             # 보고서/발표자료 산출물 폴더
 └── src/
-    ├── __init__.py
-    └── xai_utils.py         # XAI 보조 함수 모듈
+    ├── __init__.py          # src 패키지 인식용 파일
+    └── xai_utils.py         # XAI 라벨 정리, SHAP/LIME 보조 함수, SVM XAI 유틸 함수
 ```
 
 ## 노트북 역할
