@@ -22,7 +22,7 @@
 ## 데이터 분할 및 구성 결과
 
 ### 1. 데이터셋 분할 요약
-* **분할 비율**: Train 70% / Validation 15% / Test 15%
+* **분할 비율**: Train 60% / Validation 20% / Test 20%
 * **Stratify 기준**: `GROUP` 변수 (그룹별 데이터 비율을 모든 세트에서 동일하게 유지)
 * **결측값**: 최종 전처리 결과 결측값 **0개** (완전 제거 또는 대체 완료)
 
@@ -54,6 +54,6 @@
 | **사용 연도** | 2024년, 2025년 데이터 통합 |
 | **사용 그룹** | 일반국민, 농어민, 장애인, 저소득층, 고령층 (총 5개 그룹) |
 | **최종 행 수** | 총 31,333행 (Train + Val + Test 합산) |
-| **분할 비율** | Train 70% / Val 15% / Test 15% (Stratified by GROUP) |
+| **분할 비율** | Train 60% / Val 20% / Test 20% (Stratified by GROUP) |
 | **최종 결측값** | 0개 |
 | **저장 파일** | `전처리 train_set.xlsx`, `전처리 test_set.xlsx`, `전처리 val_set.xlsx`<br>`train.csv`, `val.csv`, `test.csv` |
